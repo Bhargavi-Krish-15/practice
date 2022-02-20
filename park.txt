@@ -1,2 +1,1 @@
-location - sweden 
- age - 26
+ loaction - sweden , age - 26

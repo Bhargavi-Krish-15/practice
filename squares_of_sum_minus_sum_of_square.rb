@@ -1,3 +1,4 @@
+# squares_of_sum_minus_sum_of_square
 # write a program to find the sum of the squares of the natural number minus square of the sum of the natural
 
 # a = 10
@@ -37,11 +38,11 @@ puts ans
 
 
 def check(n)
-  a , b = 0 , 0
-  1.upto(5) do |no|
+  a = b = 0
+  1.upto(n) do |no|
     a += no**2
     b += no
   end
   c = a-(b)**2
 end
-puts check(2)
+puts check(10)

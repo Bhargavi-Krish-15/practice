@@ -1,3 +1,4 @@
+# iterate_over_two_arrays
 array1 = [ 1,2,3,4]
 array2 = ["one","two","three","four"]
 

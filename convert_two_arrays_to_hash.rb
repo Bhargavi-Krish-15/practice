@@ -1,3 +1,4 @@
+# convert_two_arrays_to_hash
 ar = [1,2,3]
 arr = ["a","b","c"]
 hash = {}

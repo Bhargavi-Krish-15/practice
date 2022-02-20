@@ -1,3 +1,4 @@
+# Dir_get_file_name_from_extension.rb
 puts "Enter the filename: "
 file = gets.chomp
 #to get the filename alone

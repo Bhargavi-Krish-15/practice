@@ -8,6 +8,6 @@ secret_messages = "bhargavi"
 # puts array.enum_for.to_a
 
 ans = secret_messages.chars.each do |message|
-       message.tr!("abcdefghijklmnopqrstuvwxyz","nopqrstuvwxyzabcdefghijklm")
+       message.tr!("a-z", 'n-za-m')
 end
 puts ans

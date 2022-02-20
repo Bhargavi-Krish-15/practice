@@ -1,4 +1,4 @@
-# get_working_directory
+# Dir_get_working_directory.rb
 #get the worling file
 puts __FILE__
 #get the current directory

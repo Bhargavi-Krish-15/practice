@@ -1,3 +1,4 @@
+# get_date_time
 require 'date'
 #get current date and time
 time = DateTime.now
@@ -6,7 +7,7 @@ puts time.strftime "%d/%m/%y %h:%m"
 
 #convert string to date , time
 time = DateTime.parse("Mar 11 2011 11:31 AM")
-puts time.strftime "%d/%m/%y %h:%m%p"
+puts time.strftime "%d/%m/%y %I:%H%p"
 puts time
 
 #convert
@@ -19,3 +20,4 @@ puts time_1
 # I - hr
 # M - minute
 # p - AM/PM
+# h - month in  words

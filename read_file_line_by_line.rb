@@ -1,3 +1,4 @@
+# read_file_line_by_line
 #open a file and read its lines and convert it to array
 file = open("a.txt" , "r")
 a = file.readlines.to_a

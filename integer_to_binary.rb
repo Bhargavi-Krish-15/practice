@@ -1,3 +1,4 @@
+# integer_to_binary
 def convert_to_binary(integer)
   binary = []
   while integer > 0

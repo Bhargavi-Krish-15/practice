@@ -1,3 +1,4 @@
+# insert_string_in_string
 string = "bhaavi"
 new = "rg"
 mid = (string.length-1) / 2

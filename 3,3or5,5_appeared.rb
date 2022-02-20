@@ -12,3 +12,12 @@ if check == 1
 else
   print false
 end
+
+
+
+
+check = false
+for i in 0..array.length
+  check = true if array[i..i+1] == [3,3] || array[i..i+1] == [5,5]
+end
+puts check == true

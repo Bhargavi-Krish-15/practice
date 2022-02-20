@@ -7,3 +7,5 @@ def grp(marks , n)
 end
 
 puts grp(marks, 30)
+#group by will turn it into hash and value to array
+puts [1,2,3,4].group_by { |n| n%2}

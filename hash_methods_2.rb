@@ -36,7 +36,9 @@ puts dict_1
 
 #sort - generally based on key
 p dict_2.sort
-#giving conditions will change according to values
+#sort by value
+p dict_3.sort_by {|k,v| v}
+#giving conditions will sort according to values
 p dict_2.sort { |key,value| key[1]<=>value[1]}
 #store values in hash
 dict_1.store(4,"z")

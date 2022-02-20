@@ -1,3 +1,4 @@
+# triangle_of_numbers
 array = (1..20).to_a
 order = 1
 lines = 4

@@ -1,3 +1,4 @@
+# string_char_count.rb
 def string_char_count(string)
   count = {}
   string.chars.each do |ch|

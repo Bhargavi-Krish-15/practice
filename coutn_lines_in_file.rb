@@ -1,4 +1,4 @@
-#count line in the file
+#coutn_lines_in_file
 count = 0
 file = open("a.txt" , "r")
 begin

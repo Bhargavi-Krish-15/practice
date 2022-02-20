@@ -1,14 +1,15 @@
+# removespace_intarray_rotatearray
 #remove empty string in array
 array = [1,2,"","",34,45]
 puts array.delete("")
-puts array
+p array
 
 #turn string into integer array
 arr =[]
 str = "1,2,3,4,5"
-puts str
-arr = str.split(",").map{|no| no.to_i}
-puts arr
+p str
+arr = str.split(",").map {|no| no.to_i}
+p arr
 
 puts "$" * 15
 #rotate array left and right

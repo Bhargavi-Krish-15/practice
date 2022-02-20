@@ -1,3 +1,4 @@
+# print_string
 def new_string(str , n)
   # if str.length >= 3
   #   return str[0,3] * n

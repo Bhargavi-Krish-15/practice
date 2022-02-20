@@ -1,6 +1,6 @@
-array = [1,2,3,4,5]
-n = 0
-while n < array.length
-  p array[0..n]
-  n += 1
+array = [1,2,30,10,20,30]
+check = false
+for i in 0..array.length-1
+  check = true if array[i..i+2] == [10,20,30]
 end
+puts check == true ? true : false

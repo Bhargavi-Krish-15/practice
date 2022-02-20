@@ -22,7 +22,12 @@ puts dict_1.merge(dict_2)
 
 #assign default value to the hash , if the key is not present default value gets printed
 dict_3.default = "default"
+#since dict_3[1]is not present it gives the default value
 puts dict_3[1]
+
+#similar to has_value , but return key not true or false. if not present return empty space
+puts dict_3.index("d")
+puts dict_3.index("f")
 
 #delete the value using key
 dict_3.delete(2)
@@ -57,9 +62,7 @@ puts dict_1.has_value?("c")
 #similar to has_key
 puts dict_1.include?(8)
 puts dict_1.include?(1)
-#similar to has_value , but return key not true or false. if not present return empty space
-puts dict_3.index("d")
-puts dict_3.index("f")
+
 
 dict_4 = {
   5 => "z",

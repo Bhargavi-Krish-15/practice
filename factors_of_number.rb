@@ -1,3 +1,4 @@
+# factors_of_number
 #factors of a number
 
 number = 12

@@ -1,16 +1,16 @@
 #check prime number
-puts "enter the number:"
-num = gets.chomp.to_i
-check = true
-if num > 1
-  for no in 2...num
-    if num % no == 0
-      check = false
-      break
-    end
-  end
-end
-puts !check ? "not a prime number" : "prime number"
+# puts "enter the number:"
+# num = gets.chomp.to_i
+# check = true
+# if num > 1
+#   for no in 2...num
+#     if num % no == 0
+#       check = false
+#       break
+#     end
+#   end
+# end
+# puts !check ? "not a prime number" : "prime number"
 
 
 def is_prime(no)
@@ -19,3 +19,5 @@ def is_prime(no)
   end
   return "#{no} is a prime number"
 end
+
+puts is_prime(11)

@@ -1,4 +1,4 @@
-# shuffle deck of cards
+# shuffle_deck_cards.rb
 
 def shuffle_cards
 return <<-eos
